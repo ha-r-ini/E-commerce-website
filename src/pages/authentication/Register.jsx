@@ -5,8 +5,8 @@ import './auth.css'
 import { toast } from 'react-toastify';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { RegisterUser } from '../../services/authservices';
-import { loginUser } from '../../services/authservices';
+import { RegisterUser } from '../../services/authServices';
+import { loginUser } from '../../services/authServices';
 
 const Register = () => {
     const navigate = useNavigate()
