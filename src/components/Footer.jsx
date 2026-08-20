@@ -9,8 +9,6 @@ import XIcon from '@mui/icons-material/X';
 import { useContext } from 'react'
 import { ThemeContext } from '../context/ThemeContext'
 
-
-
 const Footer = () => {
     const { theme } = useContext(ThemeContext)
 
