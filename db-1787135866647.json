@@ -1,0 +1,185 @@
+{
+  "products": [
+    {
+      "id": "001",
+      "title": "Coffee Mug",
+      "description": "A beautifully crafted stoneware mug designed for your everyday coffee and tea moments.",
+      "img": "https://images.unsplash.com/photo-1666713711218-8ea7743c8ed1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 99,
+      "rating": 5,
+      "best_seller": true,
+      "in_stock": true,
+      "product_details": "Crafted from premium stoneware with a smooth natural finish, this 300 ml coffee mug is designed for everyday use. Its simple handcrafted look adds warmth to your coffee or tea moments and makes it a charming addition to any kitchen.",
+      "shipment_details": "Your mug is carefully packed with protective materials to ensure safe delivery. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared once your order is dispatched, with easy returns available within 7 days for damaged or defective products."
+    },
+    {
+      "id": "002",
+      "title": "Ceramic Dinner Plate",
+      "description": "A clean and modern ceramic dinner plate designed to bring a refined touch to your dining table.",
+      "img": "https://images.unsplash.com/photo-1711294545563-3b7fe2816603?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 399,
+      "rating": 5,
+      "best_seller": true,
+      "in_stock": true,
+      "product_details": "Made from durable premium ceramic, this dinner plate features a clean and elegant design suitable for everyday meals and special occasions. Its smooth glazed surface is easy to clean and complements a variety of table settings.",
+      "shipment_details": "The plate is securely wrapped and cushioned to protect it during transit. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking information will be provided after dispatch, and damaged or defective products can be returned within 7 days."
+    },
+    {
+      "id": "003",
+      "title": "Ceramic Vase",
+      "description": "A timeless handmade vase with an elegant finish, perfect for adding warmth and character to any space.",
+      "img": "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 799,
+      "rating": 4,
+      "best_seller": false,
+      "in_stock": false,
+      "product_details": "This handcrafted ceramic vase features an elegant silhouette and a natural textured finish that brings warmth and character to any room. Perfect for fresh flowers, dried arrangements, or simply as a standalone decorative piece.",
+      "shipment_details": "Each vase is carefully wrapped and securely cushioned before shipping to minimize the risk of damage. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details are shared after dispatch, with 7-day returns available for damaged or defective items."
+    },
+    {
+      "id": "004",
+      "title": "Ceramic Serving Bowl",
+      "description": "A versatile serving bowl with a simple, refined design that complements any dining table.",
+      "img": "https://images.unsplash.com/photo-1771587693737-2bd7f22e732f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWg3fDB8fHx8fA%3D%3D",
+      "price": 499,
+      "rating": 4,
+      "best_seller": false,
+      "in_stock": true,
+      "product_details": "Made from high-quality ceramic, this serving bowl combines a simple shape with a refined finish. Its generous size makes it ideal for serving salads, snacks, fruits, and side dishes while adding an elegant touch to your dining table.",
+      "shipment_details": "The serving bowl is carefully packaged with protective cushioning to ensure it arrives safely. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared after dispatch, and 7-day returns are available for damaged or defective products."
+    }
+  ],
+  "featured_products": [
+    {
+      "id": "001",
+      "title": "Coffee Mug",
+      "description": "A beautifully crafted stoneware mug designed for your everyday coffee and tea moments.",
+      "img": "https://images.unsplash.com/photo-1666713711218-8ea7743c8ed1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 99,
+      "rating": 5,
+      "best_seller": true,
+      "in_stock": true,
+      "product_details": "Crafted from premium stoneware with a smooth natural finish, this 300 ml coffee mug is designed for everyday use. Its simple handcrafted look adds warmth to your coffee or tea moments and makes it a charming addition to any kitchen.",
+      "shipment_details": "Your mug is carefully packed with protective materials to ensure safe delivery. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared once your order is dispatched, with easy returns available within 7 days for damaged or defective products."
+    },
+    {
+      "id": "002",
+      "title": "Ceramic Dinner Plate",
+      "description": "A clean and modern ceramic dinner plate designed to bring a refined touch to your dining table.",
+      "img": "https://images.unsplash.com/photo-1711294545563-3b7fe2816603?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 399,
+      "rating": 5,
+      "best_seller": true,
+      "in_stock": true,
+      "product_details": "Made from durable premium ceramic, this dinner plate features a clean and elegant design suitable for everyday meals and special occasions. Its smooth glazed surface is easy to clean and complements a variety of table settings.",
+      "shipment_details": "The plate is securely wrapped and cushioned to protect it during transit. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking information will be provided after dispatch, and damaged or defective products can be returned within 7 days."
+    },
+    {
+      "id": "003",
+      "title": "Ceramic Vase",
+      "description": "A timeless handmade vase with an elegant finish, perfect for adding warmth and character to any space.",
+      "img": "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 799,
+      "rating": 4,
+      "best_seller": false,
+      "in_stock": false,
+      "product_details": "This handcrafted ceramic vase features an elegant silhouette and a natural textured finish that brings warmth and character to any room. Perfect for fresh flowers, dried arrangements, or simply as a standalone decorative piece.",
+      "shipment_details": "Each vase is carefully wrapped and securely cushioned before shipping to minimize the risk of damage. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details are shared after dispatch, with 7-day returns available for damaged or defective items."
+    },
+    {
+      "id": "004",
+      "title": "Ceramic Serving Bowl",
+      "description": "A versatile serving bowl with a simple, refined design that complements any dining table.",
+      "img": "https://images.unsplash.com/photo-1771587693737-2bd7f22e732f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWg3fDB8fHx8fA%3D%3D",
+      "price": 499,
+      "rating": 4,
+      "best_seller": false,
+      "in_stock": true,
+      "product_details": "Made from high-quality ceramic, this serving bowl combines a simple shape with a refined finish. Its generous size makes it ideal for serving salads, snacks, fruits, and side dishes while adding an elegant touch to your dining table.",
+      "shipment_details": "The serving bowl is carefully packaged with protective cushioning to ensure it arrives safely. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared after dispatch, and 7-day returns are available for damaged or defective products."
+    }
+  ],
+  "users": [
+    {
+      "email": "harini@gmail.com",
+      "password": "$2a$10$pO7qNQUMwgoo8gskbpDAkuJCKFgyH5cezH9HF1oUvHsD/XgygITYS",
+      "name": "harini",
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "cartItems": [
+        {
+          "id": "002",
+          "title": "Ceramic Dinner Plate",
+          "description": "A clean and modern ceramic dinner plate designed to bring a refined touch to your dining table.",
+          "img": "https://images.unsplash.com/photo-1711294545563-3b7fe2816603?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 399,
+          "rating": 5,
+          "best_seller": true,
+          "in_stock": true,
+          "product_details": "Made from durable premium ceramic, this dinner plate features a clean and elegant design suitable for everyday meals and special occasions. Its smooth glazed surface is easy to clean and complements a variety of table settings.",
+          "shipment_details": "The plate is securely wrapped and cushioned to protect it during transit. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking information will be provided after dispatch, and damaged or defective products can be returned within 7 days.",
+          "quantity": 1
+        }
+      ],
+      "total": 399,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "cartItems": [
+        {
+          "id": "002",
+          "title": "Ceramic Dinner Plate",
+          "description": "A clean and modern ceramic dinner plate designed to bring a refined touch to your dining table.",
+          "img": "https://images.unsplash.com/photo-1711294545563-3b7fe2816603?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 399,
+          "rating": 5,
+          "best_seller": true,
+          "in_stock": true,
+          "product_details": "Made from durable premium ceramic, this dinner plate features a clean and elegant design suitable for everyday meals and special occasions. Its smooth glazed surface is easy to clean and complements a variety of table settings.",
+          "shipment_details": "The plate is securely wrapped and cushioned to protect it during transit. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking information will be provided after dispatch, and damaged or defective products can be returned within 7 days.",
+          "quantity": 1
+        },
+        {
+          "id": "001",
+          "title": "Coffee Mug",
+          "description": "A beautifully crafted stoneware mug designed for your everyday coffee and tea moments.",
+          "img": "https://images.unsplash.com/photo-1666713711218-8ea7743c8ed1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 99,
+          "rating": 5,
+          "best_seller": true,
+          "in_stock": true,
+          "product_details": "Crafted from premium stoneware with a smooth natural finish, this 300 ml coffee mug is designed for everyday use. Its simple handcrafted look adds warmth to your coffee or tea moments and makes it a charming addition to any kitchen.",
+          "shipment_details": "Your mug is carefully packed with protective materials to ensure safe delivery. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared once your order is dispatched, with easy returns available within 7 days for damaged or defective products.",
+          "quantity": 2
+        }
+      ],
+      "total": 597,
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "cartItems": [
+        {
+          "id": "002",
+          "title": "Ceramic Dinner Plate",
+          "description": "A clean and modern ceramic dinner plate designed to bring a refined touch to your dining table.",
+          "img": "https://images.unsplash.com/photo-1711294545563-3b7fe2816603?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 399,
+          "rating": 5,
+          "best_seller": true,
+          "in_stock": true,
+          "product_details": "Made from durable premium ceramic, this dinner plate features a clean and elegant design suitable for everyday meals and special occasions. Its smooth glazed surface is easy to clean and complements a variety of table settings.",
+          "shipment_details": "The plate is securely wrapped and cushioned to protect it during transit. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking information will be provided after dispatch, and damaged or defective products can be returned within 7 days.",
+          "quantity": 1
+        }
+      ],
+      "total": 399,
+      "userId": 1,
+      "id": 8
+    }
+  ]
+}

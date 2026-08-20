@@ -1,0 +1,22 @@
+
+:root{
+
+  --bg-color: #fbfaf8;
+  --primary-color: #4A1B0C;
+
+  --bg-color2: #4A1B0C;
+  --primary-color2: #fbfaf8;
+}
+
+
+
+[data-theme="dark"]{
+  
+  --bg-color: #4A1B0C;
+  --primary-color: #fbfaf8;
+  --bg-color2: #fbfaf8;
+  --primary-color2: #4A1B0C;
+}
+
+
+

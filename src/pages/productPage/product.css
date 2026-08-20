@@ -1,0 +1,118 @@
+.product-sec ,.product-details {
+    padding: 60px 0px
+}
+.search-product {
+    border: 1px solid var(--primary-color);
+    background-color: var(--bg-color);
+    border-radius: 30px;
+    padding: 0px 10px;
+}
+.search-product svg ,.search-product input{
+color: var(--primary-color);
+}
+.filter-bx {
+    cursor: pointer;
+     border: 1px solid var(--primary-color);
+     padding: 10px 15px;
+     border-radius: 30px;
+}
+.filter-bx svg {
+color: var(--primary-color);
+}
+.filter-drawer {
+    padding: 20px ;
+}
+.ck-box  svg{
+    color: var(--primary-color);
+}
+.details-img {
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.details-img img {
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
+   object-position: center;
+}
+.bestseller-chip {
+
+    padding: 7px 10px;
+    border-radius: 5px;
+   background-color: #FF7A00;
+color: #fbfaf8;
+    font-weight: 600;
+    font-size: var(--fs-14);
+
+}
+.instock-chip {
+
+    padding:5px 10px;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid var(--primary-color);
+    font-weight: 600;
+    font-size: var(--fs-14);
+
+}
+.qnt-btn {
+   display: flex; 
+   border: 1px solid var(--primary-color);
+   border-radius: 20px;
+   
+}
+.qnt-btn div{
+    padding: 7px 15px;
+    font-size: var(--fs-20);
+    font-weight: 600;
+      background-color: #fff;
+}
+.qnt-btn div:first-child{
+cursor: pointer;
+border-radius: 20px 0px 0px 20px;
+border-right: 1px solid var(--primary-color);
+
+}
+.qnt-btn div:last-child{
+cursor: pointer;
+border-radius: 0px 20px 20px 0px;
+border-left: 1px solid var(--primary-color);
+}
+.cart-btn button , .remove-btn button {
+    max-width: 300px;
+}
+.details-acc .MuiPaper-root.MuiAccordion-root {
+background-color: transparent;
+box-shadow: none;
+border-bottom: 1px solid var(--primary-color);
+}
+.details-acc .MuiPaper-root.MuiAccordion-root::before {
+display: none;
+}
+.details-acc  svg {
+    color: var(--primary-color);
+}
+.drawer-paper .MuiPaper-root.MuiDrawer-paper {
+    background-color: var(--bg-color);
+}
+@media (max-width: 768px) {
+.search-product button ,.filter-bx{
+    padding: 5px 10px;
+}
+.cart-btn button , .remove-btn button {
+    max-width: 100%;
+}
+.filter-bx svg ,.filter-bx  p {
+    font-size: var(--fs-16);
+}
+}
+
+/* .qnt-btn div:first-child:hover, .qnt-btn div:last-child:hover{
+transform: scale(1.5);
+
+} */
+
+/* .filter-title {
+    padding: 10px 15px;
+} */

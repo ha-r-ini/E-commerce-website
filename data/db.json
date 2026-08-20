@@ -1,0 +1,330 @@
+{
+  "products": [
+    {
+      "id": "001",
+      "title": "Coffee Mug",
+      "description": "A beautifully crafted stoneware mug designed for your everyday coffee and tea moments.",
+      "img": "https://images.unsplash.com/photo-1666713711218-8ea7743c8ed1?q=80&w=687&auto=format&fit=crop",
+      "price": 99,
+      "rating": 5,
+      "best_seller": true,
+      "in_stock": true,
+      "product_details": "Crafted from premium stoneware with a smooth natural finish, this 300 ml coffee mug is designed for everyday use. Its simple handcrafted look adds warmth to your coffee or tea moments and makes it a charming addition to any kitchen.",
+      "shipment_details": "Your mug is carefully packed with protective materials to ensure safe delivery. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared once your order is dispatched, with easy returns available within 7 days for damaged or defective products."
+    },
+    {
+      "id": "002",
+      "title": "Ceramic Dinner Plate",
+      "description": "A clean and modern ceramic dinner plate designed to bring a refined touch to your dining table.",
+      "img": "https://images.unsplash.com/photo-1711294545563-3b7fe2816603?q=80&w=735&auto=format&fit=crop",
+      "price": 399,
+      "rating": 5,
+      "best_seller": true,
+      "in_stock": true,
+      "product_details": "Made from durable premium ceramic, this dinner plate features a clean and elegant design suitable for everyday meals and special occasions. Its smooth glazed surface is easy to clean and complements a variety of table settings.",
+      "shipment_details": "The plate is securely wrapped and cushioned to protect it during transit. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking information will be provided after dispatch, and damaged or defective products can be returned within 7 days."
+    },
+    {
+      "id": "003",
+      "title": "Ceramic Vase",
+      "description": "A timeless handmade vase with an elegant finish, perfect for adding warmth and character to any space.",
+      "img": "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?q=80&w=687&auto=format&fit=crop",
+      "price": 799,
+      "rating": 4,
+      "best_seller": false,
+      "in_stock": false,
+      "product_details": "This handcrafted ceramic vase features an elegant silhouette and a natural textured finish that brings warmth and character to any room. Perfect for fresh flowers, dried arrangements, or simply as a standalone decorative piece.",
+      "shipment_details": "Each vase is carefully wrapped and securely cushioned before shipping to minimize the risk of damage. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details are shared after dispatch, with 7-day returns available for damaged or defective items."
+    },
+    {
+      "id": "004",
+      "title": "Ceramic Serving Bowl",
+      "description": "A versatile serving bowl with a simple, refined design that complements any dining table.",
+      "img": "https://images.unsplash.com/photo-1771587693737-2bd7f22e732f?q=80&w=687&auto=format&fit=crop",
+      "price": 499,
+      "rating": 4,
+      "best_seller": false,
+      "in_stock": true,
+      "product_details": "Made from high-quality ceramic, this serving bowl combines a simple shape with a refined finish. Its generous size makes it ideal for serving salads, snacks, fruits, and side dishes while adding an elegant touch to your dining table.",
+      "shipment_details": "The serving bowl is carefully packaged with protective cushioning to ensure it arrives safely. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared after dispatch, and 7-day returns are available for damaged or defective products."
+    },
+    {
+      "id": "005",
+      "title": "Handcrafted Ceramic Vase",
+      "description": "A beautifully shaped ceramic vase with a handcrafted look, perfect for flowers or simple home decoration.",
+      "img": "https://images.unsplash.com/photo-1643569556871-91ec60671ed7?q=80&w=723&auto=format&fit=crop",
+      "price": 699,
+      "rating": 5,
+      "best_seller": true,
+      "in_stock": true,
+      "product_details": "Designed with a graceful silhouette and handcrafted character, this ceramic vase brings warmth and personality to your living space. Use it with fresh flowers, dried arrangements, or display it on its own as a decorative accent.",
+      "shipment_details": "The vase is carefully wrapped and cushioned to ensure safe delivery. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared after dispatch, with 7-day returns available for damaged or defective products."
+    },
+    {
+      "id": "006",
+      "title": "Classic Ceramic Cup",
+      "description": "A simple and elegant ceramic cup designed for enjoying coffee, tea, and other everyday beverages.",
+      "img": "https://images.unsplash.com/photo-1520485521983-bfaa0bc6c80e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 149,
+      "rating": 4,
+      "best_seller": false,
+      "in_stock": true,
+      "product_details": "This classic ceramic cup features a clean design and comfortable shape, making it ideal for everyday coffee and tea. Its timeless appearance fits naturally into both modern and traditional kitchen spaces.",
+      "shipment_details": "The cup is securely packed with protective cushioning to prevent damage during transit. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared after dispatch, with 7-day returns available for damaged or defective products."
+    },
+    {
+      "id": "007",
+      "title": "Ceramic Soccer Cup",
+      "description": "A playful ceramic cup featuring a unique soccer-inspired design, perfect for sports lovers and everyday use.",
+      "img": "https://images.unsplash.com/photo-1647164487749-0d2cc2a25644?q=80&w=715&auto=format&fit=crop",
+      "price": 249,
+      "rating": 5,
+      "best_seller": true,
+      "in_stock": true,
+      "product_details": "Add a fun touch to your drinkware collection with this distinctive ceramic cup inspired by the world of soccer. Its practical design makes it suitable for coffee, tea, hot chocolate, or other favorite beverages.",
+      "shipment_details": "The cup is carefully packaged with protective materials to ensure safe delivery. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared after dispatch, with 7-day returns available for damaged or defective products."
+    },
+    {
+      "id": "008",
+      "title": "Textured Ceramic Bowl",
+      "description": "A stylish ceramic bowl with a natural textured finish, ideal for serving snacks, sides, and everyday meals.",
+      "img": "https://images.unsplash.com/photo-1727337440811-7ae0b89136b6?q=80&w=687&auto=format&fit=crop",
+      "price": 449,
+      "rating": 4,
+      "best_seller": false,
+      "in_stock": true,
+      "product_details": "Featuring a natural textured finish and versatile shape, this ceramic bowl is perfect for serving snacks, fruits, salads, desserts, and side dishes. Its understated design adds a warm handcrafted feel to your dining table.",
+      "shipment_details": "The bowl is securely wrapped and cushioned before shipping to minimize the risk of damage. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared after dispatch, with 7-day returns available for damaged or defective products."
+    },
+    {
+      "id": "009",
+      "title": "Ceramic Cutlery Set",
+      "description": "A stylish cutlery set with a clean, elegant design that complements modern ceramic tableware.",
+      "img": "https://images.unsplash.com/photo-1658206805853-badb9282212a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 599,
+      "rating": 5,
+      "best_seller": true,
+      "in_stock": true,
+      "product_details": "Designed to bring a refined touch to everyday dining, this elegant cutlery set pairs beautifully with ceramic plates and bowls. Its simple, timeless appearance makes it suitable for both casual meals and special occasions.",
+      "shipment_details": "The cutlery set is carefully packaged to prevent scratches or damage during transit. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared after dispatch, with 7-day returns available for damaged or defective products."
+    }
+  ],
+  "featured_products": [
+    {
+      "id": "001",
+      "title": "Coffee Mug",
+      "description": "A beautifully crafted stoneware mug designed for your everyday coffee and tea moments.",
+      "img": "https://images.unsplash.com/photo-1666713711218-8ea7743c8ed1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 99,
+      "rating": 5,
+      "best_seller": true,
+      "in_stock": true,
+      "product_details": "Crafted from premium stoneware with a smooth natural finish, this 300 ml coffee mug is designed for everyday use. Its simple handcrafted look adds warmth to your coffee or tea moments and makes it a charming addition to any kitchen.",
+      "shipment_details": "Your mug is carefully packed with protective materials to ensure safe delivery. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared once your order is dispatched, with easy returns available within 7 days for damaged or defective products."
+    },
+    {
+      "id": "002",
+      "title": "Ceramic Dinner Plate",
+      "description": "A clean and modern ceramic dinner plate designed to bring a refined touch to your dining table.",
+      "img": "https://images.unsplash.com/photo-1711294545563-3b7fe2816603?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 399,
+      "rating": 5,
+      "best_seller": true,
+      "in_stock": true,
+      "product_details": "Made from durable premium ceramic, this dinner plate features a clean and elegant design suitable for everyday meals and special occasions. Its smooth glazed surface is easy to clean and complements a variety of table settings.",
+      "shipment_details": "The plate is securely wrapped and cushioned to protect it during transit. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking information will be provided after dispatch, and damaged or defective products can be returned within 7 days."
+    },
+    {
+      "id": "003",
+      "title": "Ceramic Vase",
+      "description": "A timeless handmade vase with an elegant finish, perfect for adding warmth and character to any space.",
+      "img": "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 799,
+      "rating": 4,
+      "best_seller": false,
+      "in_stock": false,
+      "product_details": "This handcrafted ceramic vase features an elegant silhouette and a natural textured finish that brings warmth and character to any room. Perfect for fresh flowers, dried arrangements, or simply as a standalone decorative piece.",
+      "shipment_details": "Each vase is carefully wrapped and securely cushioned before shipping to minimize the risk of damage. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details are shared after dispatch, with 7-day returns available for damaged or defective items."
+    },
+    {
+      "id": "004",
+      "title": "Ceramic Serving Bowl",
+      "description": "A versatile serving bowl with a simple, refined design that complements any dining table.",
+      "img": "https://images.unsplash.com/photo-1771587693737-2bd7f22e732f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWg3fDB8fHx8fA%3D%3D",
+      "price": 499,
+      "rating": 4,
+      "best_seller": false,
+      "in_stock": true,
+      "product_details": "Made from high-quality ceramic, this serving bowl combines a simple shape with a refined finish. Its generous size makes it ideal for serving salads, snacks, fruits, and side dishes while adding an elegant touch to your dining table.",
+      "shipment_details": "The serving bowl is carefully packaged with protective cushioning to ensure it arrives safely. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared after dispatch, and 7-day returns are available for damaged or defective products."
+    }
+  ],
+  "users": [
+    {
+      "email": "harini@gmail.com",
+      "password": "$2a$10$pO7qNQUMwgoo8gskbpDAkuJCKFgyH5cezH9HF1oUvHsD/XgygITYS",
+      "name": "harini",
+      "id": 1
+    },
+    {
+      "email": "harshini@gmail.com",
+      "password": "$2a$10$BLZp2wjXHqs2dPKPaeyfOO9Wov75nSsbQkBsvp1R0uC3SvMSmO26y",
+      "name": "harshini",
+      "id": 2
+    }
+  ],
+  "orders": [
+    {
+      "cartItems": [
+        {
+          "id": "002",
+          "title": "Ceramic Dinner Plate",
+          "description": "A clean and modern ceramic dinner plate designed to bring a refined touch to your dining table.",
+          "img": "https://images.unsplash.com/photo-1711294545563-3b7fe2816603?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 399,
+          "rating": 5,
+          "best_seller": true,
+          "in_stock": true,
+          "product_details": "Made from durable premium ceramic, this dinner plate features a clean and elegant design suitable for everyday meals and special occasions. Its smooth glazed surface is easy to clean and complements a variety of table settings.",
+          "shipment_details": "The plate is securely wrapped and cushioned to protect it during transit. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking information will be provided after dispatch, and damaged or defective products can be returned within 7 days.",
+          "quantity": 1
+        }
+      ],
+      "total": 399,
+      "date": "2026-08-19T17:04:10.107Z",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "cartItems": [
+        {
+          "id": "006",
+          "title": "Classic Ceramic Cup",
+          "description": "A simple and elegant ceramic cup designed for enjoying coffee, tea, and other everyday beverages.",
+          "img": "https://images.unsplash.com/photo-1520485521983-bfaa0bc6c80e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 149,
+          "rating": 4,
+          "best_seller": false,
+          "in_stock": true,
+          "product_details": "This classic ceramic cup features a clean design and comfortable shape, making it ideal for everyday coffee and tea. Its timeless appearance fits naturally into both modern and traditional kitchen spaces.",
+          "shipment_details": "The cup is securely packed with protective cushioning to prevent damage during transit. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared after dispatch, with 7-day returns available for damaged or defective products.",
+          "quantity": 1
+        },
+        {
+          "id": "009",
+          "title": "Ceramic Cutlery Set",
+          "description": "A stylish cutlery set with a clean, elegant design that complements modern ceramic tableware.",
+          "img": "https://images.unsplash.com/photo-1658206805853-badb9282212a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 599,
+          "rating": 5,
+          "best_seller": true,
+          "in_stock": true,
+          "product_details": "Designed to bring a refined touch to everyday dining, this elegant cutlery set pairs beautifully with ceramic plates and bowls. Its simple, timeless appearance makes it suitable for both casual meals and special occasions.",
+          "shipment_details": "The cutlery set is carefully packaged to prevent scratches or damage during transit. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared after dispatch, with 7-day returns available for damaged or defective products.",
+          "quantity": 1
+        }
+      ],
+      "total": 748,
+      "date": "2026-08-20T09:34:27.691Z",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "cartItems": [
+        {
+          "id": "001",
+          "title": "Coffee Mug",
+          "description": "A beautifully crafted stoneware mug designed for your everyday coffee and tea moments.",
+          "img": "https://images.unsplash.com/photo-1666713711218-8ea7743c8ed1?q=80&w=687&auto=format&fit=crop",
+          "price": 99,
+          "rating": 5,
+          "best_seller": true,
+          "in_stock": true,
+          "product_details": "Crafted from premium stoneware with a smooth natural finish, this 300 ml coffee mug is designed for everyday use. Its simple handcrafted look adds warmth to your coffee or tea moments and makes it a charming addition to any kitchen.",
+          "shipment_details": "Your mug is carefully packed with protective materials to ensure safe delivery. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared once your order is dispatched, with easy returns available within 7 days for damaged or defective products.",
+          "quantity": 1
+        },
+        {
+          "id": "007",
+          "title": "Ceramic Soccer Cup",
+          "description": "A playful ceramic cup featuring a unique soccer-inspired design, perfect for sports lovers and everyday use.",
+          "img": "https://images.unsplash.com/photo-1647164487749-0d2cc2a25644?q=80&w=715&auto=format&fit=crop",
+          "price": 249,
+          "rating": 5,
+          "best_seller": true,
+          "in_stock": true,
+          "product_details": "Add a fun touch to your drinkware collection with this distinctive ceramic cup inspired by the world of soccer. Its practical design makes it suitable for coffee, tea, hot chocolate, or other favorite beverages.",
+          "shipment_details": "The cup is carefully packaged with protective materials to ensure safe delivery. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared after dispatch, with 7-day returns available for damaged or defective products.",
+          "quantity": 2
+        }
+      ],
+      "total": 597,
+      "date": "2026-08-20T10:05:04.111Z",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "cartItems": [
+        {
+          "id": "002",
+          "title": "Ceramic Dinner Plate",
+          "description": "A clean and modern ceramic dinner plate designed to bring a refined touch to your dining table.",
+          "img": "https://images.unsplash.com/photo-1711294545563-3b7fe2816603?q=80&w=735&auto=format&fit=crop",
+          "price": 399,
+          "rating": 5,
+          "best_seller": true,
+          "in_stock": true,
+          "product_details": "Made from durable premium ceramic, this dinner plate features a clean and elegant design suitable for everyday meals and special occasions. Its smooth glazed surface is easy to clean and complements a variety of table settings.",
+          "shipment_details": "The plate is securely wrapped and cushioned to protect it during transit. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking information will be provided after dispatch, and damaged or defective products can be returned within 7 days.",
+          "quantity": 1
+        }
+      ],
+      "total": 399,
+      "date": "2026-08-20T15:57:04.422Z",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "cartItems": [
+        {
+          "id": "001",
+          "title": "Coffee Mug",
+          "description": "A beautifully crafted stoneware mug designed for your everyday coffee and tea moments.",
+          "img": "https://images.unsplash.com/photo-1666713711218-8ea7743c8ed1?q=80&w=687&auto=format&fit=crop",
+          "price": 99,
+          "rating": 5,
+          "best_seller": true,
+          "in_stock": true,
+          "product_details": "Crafted from premium stoneware with a smooth natural finish, this 300 ml coffee mug is designed for everyday use. Its simple handcrafted look adds warmth to your coffee or tea moments and makes it a charming addition to any kitchen.",
+          "shipment_details": "Your mug is carefully packed with protective materials to ensure safe delivery. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared once your order is dispatched, with easy returns available within 7 days for damaged or defective products.",
+          "quantity": 1
+        }
+      ],
+      "total": 99,
+      "date": "2026-08-20T15:57:59.606Z",
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "cartItems": [
+        {
+          "id": "005",
+          "title": "Handcrafted Ceramic Vase",
+          "description": "A beautifully shaped ceramic vase with a handcrafted look, perfect for flowers or simple home decoration.",
+          "img": "https://images.unsplash.com/photo-1643569556871-91ec60671ed7?q=80&w=723&auto=format&fit=crop",
+          "price": 699,
+          "rating": 5,
+          "best_seller": true,
+          "in_stock": true,
+          "product_details": "Designed with a graceful silhouette and handcrafted character, this ceramic vase brings warmth and personality to your living space. Use it with fresh flowers, dried arrangements, or display it on its own as a decorative accent.",
+          "shipment_details": "The vase is carefully wrapped and cushioned to ensure safe delivery. Orders are processed within 1–2 business days and delivered within 3–5 business days. Tracking details will be shared after dispatch, with 7-day returns available for damaged or defective products.",
+          "quantity": 1
+        }
+      ],
+      "total": 699,
+      "date": "2026-08-20T16:00:56.737Z",
+      "userId": 1,
+      "id": 10
+    }
+  ]
+}

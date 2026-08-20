@@ -1,0 +1,53 @@
+.main-header {
+    background-color: var(--bg-color ) !important;
+    box-shadow: none !important;
+     position: fixed;
+}
+.MuiToolbar-root {
+max-width: 90%;
+width: 100%;
+margin: 0 auto;
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+.header-flex {
+    width: 100%;
+}
+.icon-header {
+    min-width: 150px;
+}
+.icon-header svg  {
+color: var(--primary-color);
+width: 27px;
+height: 27px;
+}
+.menu-header a {
+    font-weight: 500;
+}
+.menu-header .active {
+   border-bottom: 2px solid var(--primary-color);
+}
+.menu-notification .MuiPaper-root.MuiPaper-elevation {
+    min-width: 250px;
+    border-radius: 20px;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    border: 2px solid var(--bg-color2);
+    padding: 5px 10px;
+}
+.menu-notification li{
+padding:15px 15px 10px 5px;
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.menu-notification li:last-child{
+margin-bottom: 0px;
+}
+.main-drawer .MuiPaper-root.MuiDrawer-paper {
+    background-color: var(--bg-color);
+}
+.main-drawer svg{
+    color: var(--primary-color);
+}
