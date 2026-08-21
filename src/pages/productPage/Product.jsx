@@ -37,7 +37,6 @@ const Product = () => {
   const host = import.meta.env.VITE_HOST
   const { product, error, loading } = useFetch(`${host}/444/products`)
 
-  
   useEffect(() => {
     const filterData = product.filter((item) => {
       if (search && !item.title.toLowerCase().includes(search.toLowerCase())) {
