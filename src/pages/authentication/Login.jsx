@@ -121,7 +121,7 @@ const Login = () => {
                                 <div className='mt-30 common-btn text-center'>
                                     <Button type='submit'>Sign In</Button>
                                 </div>
-                                <div className='mt-30 common-btn text-center'>
+                                <div className='mt-20 common-btn text-center'>
                                     <Button type="button" onClick={handleGuestLogin}>Login as guest</Button>
                                 </div>
                             </form>

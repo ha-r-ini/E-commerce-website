@@ -1,195 +1,165 @@
 .banner {
-  padding-top: 70px; 
-  padding-bottom: 40px; 
+     padding-top: 70px;
+     padding-bottom: 40px;
 }
-.section-1, .section-2 , .section-3{
-    padding-top: 40px;
-    padding-bottom: 60px;
+ .section-1, .section-2 , .section-3{
+     padding-top: 40px;
+     padding-bottom: 60px;
 }
-.banner img {
-width: 100%;
+ .banner img {
+     width: 100%;
 }
-/* .slider-card {
-    width: 100%;
-    height: 600px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;
-   padding-left: 20px;
-   padding-top: 20px;
-    display: flex;
-   justify-content: flex-end;
-   flex-direction: column;
-   text-align: right;
-   align-items: flex-end;
-} */
  .slider-card {
-  --notch: 60px;      /* how far the cut extends */
-  --radius: 50px;     /* your existing corner radius */
-
-  width: 100%;
-  height: 600px;
-  background-position: center;
-  background-size: cover;
-  border-radius: var(--radius);
-  
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  gap: 20px;
-  text-align: right;
-  align-items: flex-end;
-  position: relative; /* needed so the notch can be positioned against it */
+     --notch: 60px;
+     --radius: 50px;
+     width: 100%;
+     height: 600px;
+     background-position: center;
+     background-size: cover;
+     border-radius: var(--radius);
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+     gap: 20px;
+     text-align: right;
+     align-items: flex-end;
+     position: relative;
+}
+ .slider-card::before, .slider-card::after {
+     content: '';
+     position: absolute;
+     width: var(--notch);
+     height: var(--notch);
+     background: var(--surface-page, #fff);
 }
 
-.slider-card::before,
-.slider-card::after {
-  content: '';
-  position: absolute;
-  width: var(--notch);
-  height: var(--notch);
-  background: var(--surface-page, #fff); /* match the page/section bg behind the card */
-}
-
-/* bottom edge of the notch */
 .slider-card::before {
-  bottom: 0;
-  right: calc(10.66 * var(--notch));
-  background: radial-gradient(circle at 0 0, transparent var(--notch), var(--surface-page, var(--bg-color)) calc(var(--notch) + 0.5px));
+     bottom: 0;
+     right: calc(10.66 * var(--notch));
+     background: radial-gradient(circle at 0 0, transparent var(--notch), var(--surface-page, var(--bg-color)) calc(var(--notch) + 0.5px));
 }
 
-/* right edge of the notch */
 .slider-card::after {
-  top: calc(5.55 * var(--notch));
-  right: 0;
-  background: radial-gradient(circle at 0 0, transparent var(--notch), var(--surface-page, var(--bg-color)) calc(var(--notch) + 0.5px));
+     top: calc(5.55 * var(--notch));
+     right: 0;
+     background: radial-gradient(circle at 0 0, transparent var(--notch), var(--surface-page, var(--bg-color)) calc(var(--notch) + 0.5px));
 }
-.slider-content {
-    background-color: var(--bg-color);
-    padding: 20px;
-    border-radius: 50px 0px 0px 0px;
+ .slider-content {
+     background-color: var(--bg-color);
+     padding: 20px;
+     border-radius: 50px 0px 0px 0px;
 }
-
-.banner-discription {
-    max-width: 600px;
+ .banner-discription {
+     max-width: 600px;
 }
-.Banner-btn button{
-    background-color: var(--primary-color);
-        border-radius: 50px;
-        text-transform: none;
-        font-size: 16px;
-        padding: 7px 15px;
-color: var(--bg-color);
-transition: all 0.3s ease-in-out;
+ .Banner-btn button{
+     background-color: var(--primary-color);
+     border-radius: 50px;
+     text-transform: none;
+     font-size: 16px;
+     padding: 7px 15px;
+     color: var(--bg-color);
+     transition: all 0.3s ease-in-out;
 }
-.Banner-btn button:hover{
-    background-color: var(--primary-color);
-  color: var(--bg-color);
+ .Banner-btn button:hover{
+     background-color: var(--primary-color);
+     color: var(--bg-color);
 }
-.Banner-btn button svg{
-    color: var(--bg-color);
-transition: all 0.3s ease-in-out;
-
+ .Banner-btn button svg{
+     color: var(--bg-color);
+     transition: all 0.3s ease-in-out;
 }
-.Banner-btn button:hover svg{
-  color: var(--bg-color);
-   transform: rotate(45deg);
+ .Banner-btn button:hover svg{
+     color: var(--bg-color);
+     transform: rotate(45deg);
 }
-.testimonial-card {
-    padding: 50px 30px;
-    border-radius: 20px;
-    border: 1px solid var(--primary-color);
-    transition: all 0.3s ease-in-out;
-    /* background-color: #fff; */
-    /* box-shadow:rgba(50, 50, 93, 0.25) -19px -20px 60px -12px inset, rgba(0, 0, 0, 0.3) -9px -15px 36px -18px inset; */
+ .testimonial-card {
+     padding: 50px 30px;
+     border-radius: 20px;
+     border: 1px solid var(--primary-color);
+     transition: all 0.3s ease-in-out;
 }
-.testimonial-card:hover  {
-background-color: var(--primary-color);
-
+ .testimonial-card:hover {
+     background-color: var(--primary-color);
 }
-.testimonial-card p {
-    text-align: center;
-}
-.testimonial-card p ,.testimonial-card h3 , .testimonial-card span {
-transition: all 0.3s ease-in-out;
-}
-.testimonial-card:hover p , .testimonial-card:hover h3 ,.testimonial-card:hover span {
-color: var(--bg-color);
-}
-
-.section-3 .sec-title {
-    text-align: left;
-}
-.sec3-img {
-    border-radius: 20px;
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
-}
-.sec3-img img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    object-position: center;
-}
-
-.faq h3 {
-font-size: var(--fs-16);
-transition: all 0.3s ease-in-out;
-}
-.faq p {
-    font-size: var(--fs-16);
-    line-height: 1.5;
-    transition: all 0.3s ease-in-out;
-}
-.faq .MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded::before{
-    display: none;
-}
-.faq .MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded{
-border: 1px solid var(--primary-color);
-border-radius: 25px;
-background-color: var(--bg-color);
-transition: all 0.3s ease-in-out;
-box-shadow: none;
-}
-.faq .MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.Mui-expanded{
-background: var(--primary-color);
-
-}
-.faq svg{
-   color: var(--primary-color); 
-   transition: all 0.3s ease-in-out;
-}
-.faq .MuiAccordion-rounded.Mui-expanded :is(p, h3, svg)  {
-    color: var(--bg-color);
-}
-@media (max-width: 768px) {
-    .slider-card{
+ .testimonial-card p {
      text-align: center;
-     justify-content: center;
-     align-items: center;
-     height: 500px;
-    }
-    .section-1, .section-2, .section-3{
-        padding-top: 20px;
-        padding-bottom: 40px;
-    }
-    .slider-content {
-        margin: 10px;
-        border-radius: 20px ;
-    }
-    .slider-card::before,
-.slider-card::after{
-    display: none;
 }
- .testimonial-card{
-    padding: 30px;
- }   
- .sec-title p , .testimonial-card p ,  .faq .MuiAccordion-rounded p {
-    font-size: var(--fs-14);
- }
- .testimonial-card h3 {
-    font-size: var(--fs-16);
- }
-
+ .testimonial-card p ,.testimonial-card h3 , .testimonial-card span {
+     transition: all 0.3s ease-in-out;
+}
+ .testimonial-card:hover p , .testimonial-card:hover h3 ,.testimonial-card:hover span {
+     color: var(--bg-color);
+}
+ .section-3 .sec-title {
+     text-align: left;
+}
+ .sec3-img {
+     border-radius: 20px;
+     height: 400px;
+     width: 100%;
+     overflow: hidden;
+}
+ .sec3-img img{
+     height: 100%;
+     width: 100%;
+     object-fit: contain;
+     object-position: center;
+}
+ .faq h3 {
+     font-size: var(--fs-16);
+     transition: all 0.3s ease-in-out;
+}
+ .faq p {
+     font-size: var(--fs-16);
+     line-height: 1.5;
+     transition: all 0.3s ease-in-out;
+}
+ .faq .MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded::before{
+     display: none;
+}
+ .faq .MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded{
+     border: 1px solid var(--primary-color);
+     border-radius: 25px;
+     background-color: var(--bg-color);
+     transition: all 0.3s ease-in-out;
+     box-shadow: none;
+}
+ .faq .MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.Mui-expanded{
+     background: var(--primary-color);
+}
+ .faq svg{
+     color: var(--primary-color);
+     transition: all 0.3s ease-in-out;
+}
+ .faq .MuiAccordion-rounded.Mui-expanded :is(p, h3, svg) {
+     color: var(--bg-color);
+}
+ @media (max-width: 768px) {
+     .slider-card{
+         text-align: center;
+         justify-content: center;
+         align-items: center;
+         height: 500px;
+    }
+     .section-1, .section-2, .section-3{
+         padding-top: 20px;
+         padding-bottom: 40px;
+    }
+     .slider-content {
+         margin: 10px;
+         border-radius: 20px ;
+    }
+     .slider-card::before, .slider-card::after{
+         display: none;
+    }
+     .testimonial-card{
+         padding: 30px;
+    }
+     .sec-title p , .testimonial-card p , .faq .MuiAccordion-rounded p {
+         font-size: var(--fs-14);
+    }
+     .testimonial-card h3 {
+         font-size: var(--fs-16);
+    }
 }
