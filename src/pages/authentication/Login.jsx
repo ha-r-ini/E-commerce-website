@@ -63,7 +63,25 @@ const Login = () => {
 
 
     }
+    const handleGuestLogin = async () => {
+        try {
+            const guestData = {
+                email: import.meta.env.VITE_GUEST_EMAIL,
+                password: import.meta.env.VITE_GUEST_PASSWORD
+            };
 
+            const data = await loginUser(guestData);
+
+            sessionStorage.setItem("token", data.accessToken);
+            sessionStorage.setItem("userID", data.user.id);
+
+            toast.success("Logged in as guest!");
+            navigate("/");
+        } catch (error) {
+            console.error(error);
+            toast.error("Guest login failed. Please try again.");
+        }
+    };
     return (
         <>
             <div className='login'>
@@ -102,6 +120,9 @@ const Login = () => {
                                 </div>
                                 <div className='mt-30 common-btn text-center'>
                                     <Button type='submit'>Sign In</Button>
+                                </div>
+                                <div className='mt-30 common-btn text-center'>
+                                    <Button type="button" onClick={handleGuestLogin}>Login as guest</Button>
                                 </div>
                             </form>
                         </Grid>
