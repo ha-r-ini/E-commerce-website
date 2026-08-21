@@ -8,6 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import XIcon from '@mui/icons-material/X';
 import { useContext } from 'react'
 import { ThemeContext } from '../context/ThemeContext'
+import ArrowForwardRoundedIcon from '@mui/icons-material/ArrowForwardRounded';
 
 const Footer = () => {
     const { theme } = useContext(ThemeContext)
@@ -30,15 +31,20 @@ const Footer = () => {
                             <p className='mt-20'><b>Quick Links</b></p>
 
                             <div className='mt-20'>
-                                <p> <Link to="/products">Purchase</Link></p>
-                                <p className='mt-5'> <Link to="">products</Link></p>
-                                <p className='mt-5'> <Link to="">Cart</Link></p>
+                               
+                                <div className='flex-1 gap-1 footer-links mt-5'><p> <Link to="/products">Products</Link></p> <ArrowForwardRoundedIcon /></div>
+                                <div className='flex-1 gap-1 footer-links mt-5'>
+                                    <p > <Link to="/purchase">Purchase</Link></p> <ArrowForwardRoundedIcon />
+                                </div>
+                                <div className='flex-1 gap-1 footer-links mt-5'>
+                                    <p > <Link to="/cart">Cart</Link></p><ArrowForwardRoundedIcon />
+                                </div>
                             </div>
                         </Grid>
-                        <Grid size={{ xs: 12, sm: 12, md:3, lg: 4, xl: 3 }} >
+                        <Grid size={{ xs: 12, sm: 12, md: 3, lg: 4, xl: 3 }} >
                             <p className='mt-20'><b>Follow the Craft</b></p>
 
-                            <div className='mt-20 flex-1 gap-1'>
+                            <div className='mt-20 flex-1 gap-1 footer-icon'>
                                 <p> <Link to="/"><XIcon /></Link></p>
                                 <p> <Link to="/"><LinkedInIcon /></Link></p>
                                 <p> <Link to="/"><InstagramIcon /></Link></p>

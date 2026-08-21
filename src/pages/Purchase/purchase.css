@@ -1,71 +1,64 @@
-
-.purchase {
-      padding: 60px 0px;
-    min-height: 500px;
+ .purchase {
+     padding: 60px 0px;
+     min-height: 500px;
 }
-.purchase-card {
-   border: 1px solid var(--primary-color);
-    padding: 10px;
-    padding-right: 20px;
-    border-radius: 20px;
+ .purchase-card {
+     border: 1px solid var(--primary-color);
+     padding: 10px;
+     padding-right: 20px;
+     border-radius: 20px;
 }
-.purchase-item {
-    border-bottom: 1px solid var(--primary-color);
-    width: 100%;
-    padding: 20px 0px;
+ .purchase-item {
+     border-bottom: 1px solid var(--primary-color);
+     width: 100%;
+     padding: 20px 0px;
 }
-.purchase-img{
-    border-radius: 20px;
-    height: 100px;
-    width: 100px;
-    flex-shrink: 0;
-    overflow: hidden;
+ .purchase-img{
+     border-radius: 20px;
+     height: 100px;
+     width: 100px;
+     flex-shrink: 0;
+     overflow: hidden;
 }
-.purchase-img img{
-    object-fit: cover;
-    object-position: center;
-height: 100%;
-width: 100%;
-
+ .purchase-img img{
+     object-fit: cover;
+     object-position: center;
+     height: 100%;
+     width: 100%;
 }
-.purchase-item  .description {
-   width: 300px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-    font-size: 13px;
+ .purchase-item .description {
+     width: 300px;
+     display: -webkit-box;
+     -webkit-box-orient: vertical;
+     -webkit-line-clamp: 2;
+     overflow: hidden;
+     font-size: 13px;
 }
-.ord-id h1 {
-font-size: var(--fs-20) ;
+ .ord-id h1 {
+     font-size: var(--fs-20) ;
 }
-.purchase-body div:last-child{
-    border: none;
-
+ .purchase-body div:last-child{
+     border: none;
 }
-
-@media (max-width: 768px) {
-.purchase-item  .description {
-     white-space: inherit !important;
-        width: 100%;
-}
-
-        .close-btn{
-position: absolute;
-right: 5px;
-top: 5px;
+ @media (max-width: 768px) {
+     .purchase-item .description {
+         white-space: inherit !important;
+         width: 100%;
     }
-      .purchase-item >.flex-1{
-   flex-direction: column;
-
+     .close-btn{
+         position: absolute;
+         right: 5px;
+         top: 5px;
     }
-      .purchase-item{
+     .purchase-item >.flex-1{
+         flex-direction: column;
+    }
+     .purchase-item{
          display: block;
-        position: relative;
-       
-      }
-         .purchase-img{
-          height: 150px;
-        width: 100%;
+         position: relative;
+    }
+     .purchase-img{
+         height: 150px;
+         width: 100%;
     }
 }
